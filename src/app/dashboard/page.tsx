@@ -18,23 +18,35 @@ interface usageInterface {
 
 export default function Dashboard() {
   const [usage, setUsage] = useState<usageInterface | null>(null);
-  const { user } = useUser();
+  const [error, setError] = useState<string | null>(null);
+  const { user, isLoaded } = useUser();
 
   useEffect(() => {
     async function fetchUsage() {
+      if (!isLoaded || !user) return; 
       try {
-        if (!user) return; 
         const res = await axios.get(`/api/getUsage`);
         const data = await res.data;
         setUsage(data);
-      } catch (error) {
-        console.error("Error fetching usage data:", error);
-        setUsage(null); 
+      } catch (err: any) {
+        console.error("Error fetching usage data:", err);
+        setError(err.response?.data?.error || err.message || "Failed to load dashboard data.");
       }
     }
 
     fetchUsage();
-  }, [user]);
+  }, [user, isLoaded]);
+
+  if (error) {
+    return (
+      <div className="flex justify-center items-center min-h-screen flex-col gap-4">
+        <p className="text-red-500 font-semibold">{error}</p>
+        <p className="text-zinc-500 text-sm max-w-md text-center">
+          This usually happens if your Database URL is missing or incorrect in Vercel's Environment Variables, or if you haven't pushed your database schema yet.
+        </p>
+      </div>
+    );
+  }
 
   if (!usage) {
     return (
