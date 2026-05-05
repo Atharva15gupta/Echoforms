@@ -2,7 +2,6 @@ import React from "react";
 import { HoverBorderGradient } from "../ui/hover-border-gradient";
 import { ArrowUpRight, Sparkles } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -51,21 +50,7 @@ export default function Hero() {
           <span>How it works ?</span>
         </HoverBorderGradient>
       </div>
-      <div className="md:mt-44 max-md:mt-52">
 
-      <Link
-          href="https://www.producthunt.com/posts/echoforms?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-echoforms"
-          target="_blank"
-          >
-          <Image
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=899573&theme=dark&t=1740053069294"
-            alt="EchoForms - Generate&#0032;Forms&#0032;Instantly&#0046;&#0032;No&#0032;Code&#0046;&#0032;Just&#0032;Magic&#0046; | Product Hunt"
-            className="w-[250px] h-[54px] max-md:w-[200px] "
-            width="250"
-            height="54"
-          />
-        </Link>
-      </div>
     </div>
   );
 }
