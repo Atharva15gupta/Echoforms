@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "EchoForms",
+  title: "EnhanceForms",
   description: "AI-Powered Form Builder",
   icons: {
     icon: "/Logo.png",

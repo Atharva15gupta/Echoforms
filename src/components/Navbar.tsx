@@ -12,9 +12,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full h-16 border-b border-black/10 dark:border-white/10  backdrop-blur-xl items-center flex px-8 justify-between z-50 max-md:px-4">
       <div className="flex justify-center items-center gap-1">
-        <Image src="/Logo.png" alt="EchoForms" width={26} height={26} />
+        <Image src="/Logo.png" alt="EnhanceForms" width={26} height={26} />
         <span className="text-xl font-bold text-black/70 dark:text-white tracking-tight">
-          EchoForms
+          EnhanceForms
         </span>
       </div>
       <div className="flex justify-center items-center gap-4 max-md:gap-2">
@@ -26,7 +26,7 @@ export default function Navbar() {
               </Button>
             </Link>
             <Link
-              href={"https://github.com/Atharva15gupta/Echoforms"}
+              href={"https://github.com/Atharva15gupta/Enhanceforms"}
               className="text-black/60 dark:text-white/70 hover:text-black dark:hover:text-white max-md:hidden"
             >
               <Github  />

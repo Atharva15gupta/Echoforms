@@ -12,7 +12,7 @@ export default function TermsAndConditions() {
           Terms and Conditions 
         </h3>
         <p className="text-zinc-500 text-base text-center mt-3 tracking-tight max-w-2xl">
-          Please read these Terms and Conditions carefully before using EchoForms.
+          Please read these Terms and Conditions carefully before using EnhanceForms.
         </p>
       </div>
       <div className="border w-full max-w-[800px] p-10 flex-col gap-8 flex mb-28 max-md:border-none max-md:mb-5">

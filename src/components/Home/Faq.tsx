@@ -8,15 +8,15 @@ import {
 const faqs = [
   {
     value:"item-1",
-    question: "What is EchoForms?",
+    question: "What is EnhanceForms?",
     answer:
-      "EchoForms is an AI-powered form builder that lets you create, customize, and share forms effortlessly, no coding required.",
+      "EnhanceForms is an AI-powered form builder that lets you create, customize, and share forms effortlessly, no coding required.",
   },
   {
     value:"item-2",
     question: "How does AI generate forms?",
     answer:
-      "Simply describe the type of form you need, and EchoForms will automatically generate a fully functional form in seconds.",
+      "Simply describe the type of form you need, and EnhanceForms will automatically generate a fully functional form in seconds.",
   },
   {
     value:"item-3",
@@ -32,9 +32,9 @@ const faqs = [
   },
   {
     value:"item-5",
-    question: "What integrations does EchoForms support?",
+    question: "What integrations does EnhanceForms support?",
     answer:
-      "EchoForms integrates with Notion, Zapier, Google Sheets, and more to automate data collection and workflows.",
+      "EnhanceForms integrates with Notion, Zapier, Google Sheets, and more to automate data collection and workflows.",
   },
   {
     value:"item-6",

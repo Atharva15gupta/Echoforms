@@ -4,7 +4,7 @@ const reviews = [
   {
     name: "Amit Sharma",
     username: "@amitsharma",
-    body: "EchoForms has streamlined my workflow! AI-powered forms save me hours every day.",
+    body: "EnhanceForms has streamlined my workflow! AI-powered forms save me hours every day.",
     img: "https://avatar.vercel.sh/amit",
   },
   {
@@ -16,7 +16,7 @@ const reviews = [
   {
     name: "Rajesh Gupta",
     username: "@rajeshgupta",
-    body: "Simple, fast, and efficient! EchoForms helps me manage customer inquiries seamlessly.",
+    body: "Simple, fast, and efficient! EnhanceForms helps me manage customer inquiries seamlessly.",
     img: "https://avatar.vercel.sh/rajesh",
   },
   {
@@ -40,7 +40,7 @@ const reviews = [
   {
     name: "Vikram Singh",
     username: "@vikramsingh",
-    body: "The AI-generated forms are spot on! I use EchoForms for event registrations all the time.",
+    body: "The AI-generated forms are spot on! I use EnhanceForms for event registrations all the time.",
     img: "https://avatar.vercel.sh/vikram",
   },
   {

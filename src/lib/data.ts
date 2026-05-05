@@ -109,13 +109,13 @@ export const termsAndConditionsData = [
   {
     title: "Acceptance of Terms",
     content: `
-      By accessing or using EchoForms, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using our services.
+      By accessing or using EnhanceForms, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using our services.
     `,
   },
   {
     title: "Use of Service",
     content: `
-      You agree to use EchoForms only for lawful purposes and in accordance with these Terms. You must not:
+      You agree to use EnhanceForms only for lawful purposes and in accordance with these Terms. You must not:
       - Violate any applicable laws or regulations.
       - Infringe on the rights of others.
       - Attempt to gain unauthorized access to our systems.
@@ -130,32 +130,32 @@ export const termsAndConditionsData = [
   {
     title: "Intellectual Property",
     content: `
-      All content, trademarks, and intellectual property on EchoForms are the property of EchoForms or its licensors. You may not use, copy, or distribute any content without prior written permission.
+      All content, trademarks, and intellectual property on EnhanceForms are the property of EnhanceForms or its licensors. You may not use, copy, or distribute any content without prior written permission.
     `,
   },
   {
     title: "Limitation of Liability",
     content: `
-      EchoForms shall not be liable for any indirect, incidental, or consequential damages arising out of or related to your use of the service.
+      EnhanceForms shall not be liable for any indirect, incidental, or consequential damages arising out of or related to your use of the service.
     `,
   },
   {
     title: "Termination",
     content: `
-      We reserve the right to terminate or suspend your access to EchoForms at any time, without notice, for any reason, including violations of these Terms.
+      We reserve the right to terminate or suspend your access to EnhanceForms at any time, without notice, for any reason, including violations of these Terms.
     `,
   },
   {
     title: "Changes to Terms",
     content: `
-      EchoForms reserves the right to update or modify these Terms at any time. Continued use of the service after such changes constitutes acceptance of the updated Terms.
+      EnhanceForms reserves the right to update or modify these Terms at any time. Continued use of the service after such changes constitutes acceptance of the updated Terms.
     `,
   },
   {
     title: "Contact Us",
     content: `
       If you have any questions about these Terms, please contact us at:
-      - Email: support@echoforms.com
+      - Email: support@enhanceforms.com
       - Phone: +1 (123) 456-7890
     `,
   },

@@ -1,11 +1,11 @@
-# **EchoForms – AI-Powered Form Builder** 
+# **EnhanceForms – AI-Powered Form Builder** 
 
 
-![EchoForms](public/images/image.png)
+![EnhanceForms](public/images/image.png)
 
 ## 🌟 Overview
 
-🚀 **EchoForms** is an AI-powered form generation SaaS that allows users to create and manage forms instantly using simple prompts. With **real-time response tracking, email notifications, and seamless data export**, EchoForms simplifies form creation without any coding.  
+🚀 **EnhanceForms** is an AI-powered form generation SaaS that allows users to create and manage forms instantly using simple prompts. With **real-time response tracking, email notifications, and seamless data export**, EnhanceForms simplifies form creation without any coding.  
 
 ---
 
@@ -39,8 +39,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Atharva15gupta/Echoforms.git
-   cd echoforms
+   git clone https://github.com/Atharva15gupta/Enhanceforms.git
+   cd enhanceforms
    ```
 2. Install dependencies:
    ```bash
@@ -68,7 +68,7 @@
 1. **Fork the repository** by clicking the "Fork" button.
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/Atharva15gupta/Echoforms.git
+   git clone https://github.com/Atharva15gupta/Enhanceforms.git
    ```
 3. **Create a new branch:**
    ```bash
@@ -96,7 +96,7 @@
 
 ## 🛡 License
 
-EchoForms is licensed under the MIT License.
+EnhanceForms is licensed under the MIT License.
 
 ---
 

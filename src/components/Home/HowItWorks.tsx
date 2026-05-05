@@ -19,7 +19,7 @@ export default function HowItWorks({ className }: { className?: string }) {
       step: 1,
       title: "Describe Your Form",
       description:
-        "Simply type what kind of form you need—whether it's a survey, registration form, or feedback form. EchoForms instantly understands your needs.",
+        "Simply type what kind of form you need—whether it's a survey, registration form, or feedback form. EnhanceForms instantly understands your needs.",
       icon: <SquarePen />,
       ref: div2Ref,
     },

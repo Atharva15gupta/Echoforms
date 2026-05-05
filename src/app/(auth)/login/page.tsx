@@ -75,7 +75,7 @@ export default function Signin() {
       <Card className="w-full max-w-md  dark:bg-zinc-900/40 border-none max-md:dark:bg-transparent max-md:shadow-none">
         <CardHeader>
           <div className="w-fit p-3 mx-auto bg-zinc-200 rounded-full dark:bg-zinc-800">
-            <Image src="/Logo.png" alt="EchoForms" width={30} height={30} />
+            <Image src="/Logo.png" alt="EnhanceForms" width={30} height={30} />
           </div>
           <CardTitle className="text-xl font-bold text-center">
             Welcome back!

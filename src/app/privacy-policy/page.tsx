@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           Privacy Policy 
         </h3>
         <p className="text-zinc-500 text-base text-center mt-4 tracking-tight max-w-2xl max-md:text-sm max-md:mt-2">
-          At EchoForms, we are committed to protecting your privacy. This
+          At EnhanceForms, we are committed to protecting your privacy. This
           Privacy Policy explains how we collect, use, and safeguard your
           information when you use our services.
         </p>
@@ -141,10 +141,10 @@ export default function PrivacyPolicy() {
                 <li>
                   Email:{" "}
                   <Link
-                    href="mailto:support@echoforms.com"
+                    href="mailto:support@enhanceforms.com"
                     className="underline"
                   >
-                    support@echoforms.com
+                    support@enhanceforms.com
                   </Link>
                 </li>
                 <li>Phone: +1 (123) 456-7890</li>

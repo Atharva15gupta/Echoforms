@@ -26,13 +26,13 @@ export default function Footer() {
         <div className="flex items-center gap-1 mb-2  max-md:mb-1">
           <Image
             src="/Logo.png"
-            alt="EchoForms"
+            alt="EnhanceForms"
             width={30}
             height={30}
             className=" max-md:w-5 max-md:h-5"
           />
           <span className="text-2xl font-bold text-black/70 dark:text-white tracking-tight max-md:text-base">
-            EchoForms
+            EnhanceForms
           </span>
         </div>
         <p className="text-sm text-black dark:text-white/50 mb-1 max-md:leading-tight max-md:text-xs max-md:mb-0">
@@ -40,7 +40,7 @@ export default function Footer() {
             className="mr-1 text-black dark:text-white/50 inline max-md:w-3 max-md:m-0 max-md:mr-0.5"
             size={15}
           />
-          2025 EchoForms Private Limited.
+          2025 EnhanceForms Private Limited.
         </p>
         <p className="text-black dark:text-white/50 text-sm max-md:text-xs">
           All rights reserved.

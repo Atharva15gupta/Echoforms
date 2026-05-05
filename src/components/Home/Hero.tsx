@@ -22,7 +22,7 @@ export default function Hero() {
       </h1>
       <p className="text-black/60 dark:text-white/60 max-w-2xl text-center text-lg tracking-tight max-md:text-xs max-md:hidden">
         No more dragging fields, no more templates-just describe the form you
-        need, and EchoForms will create it in seconds.
+        need, and EnhanceForms will create it in seconds.
       </p>
       <div className="flex gap-4 max-md:mt-1.5">
         <Link href={"/dashboard"}>

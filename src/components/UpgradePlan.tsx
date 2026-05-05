@@ -62,7 +62,7 @@ export default function UpgradePlan() {
       key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID!,
       amount: data.order.amount,
       currency: "INR",
-      name: "EchoForms",
+      name: "EnhanceForms",
       description: "Test Transaction",
       order_id: data.order.id,
       handler: async function (response: Record<string, unknown>) {

@@ -12,7 +12,7 @@ export const features = [
   {
     title: "AI-Powered Form Generation",
     description:
-      "Create any form instantly with a single prompt. No manual setup—just describe your needs, and EchoForms builds it for you.",
+      "Create any form instantly with a single prompt. No manual setup—just describe your needs, and EnhanceForms builds it for you.",
     icon: <Bot size={35} />,
   },
   {
